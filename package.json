@@ -1,0 +1,27 @@
+{
+  "name": "react-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start":"watchify src/app.jsx -v -t [babelify --presets [ react ] ] -o public/js/main.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nomanarshad20/react-base.git"
+  },
+  "author": "noman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nomanarshad20/react-base/issues"
+  },
+  "homepage": "https://github.com/nomanarshad20/react-base#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "watchify": "^3.7.0"
+  }
+}
